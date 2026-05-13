@@ -25,18 +25,18 @@ export const BubbleText = ({ text, className }: BubbleTextProps) => {
         let classes = "transition-all duration-300 ease-in-out cursor-default inline-block ";
         
         // Aplicamos distintos grosores y colores según la distancia
-        switch (distance) {
+          switch (distance) {
           case 0: // La letra que tocas
-            classes += " font-black text-blue-400 -translate-y-1 scale-110";
+            classes += " font-black text-white -translate-y-1 scale-110"; // <-- Cambiado a text-white
             break;
           case 1: // Las vecinas inmediatas
-            classes += " font-bold text-blue-300 -translate-y-0.5 scale-105";
+            classes += " font-bold text-white/90 -translate-y-0.5 scale-105"; // <-- Cambiado a text-white/90
             break;
           case 2: // Las segundas vecinas
-            classes += " font-semibold text-white/90";
+            classes += " font-semibold text-white/70"; // <-- Cambiado a text-white/70
             break;
           default: // El resto de letras
-            classes += " font-light text-white/70";
+            classes += " font-light text-white/40"; // <-- Cambiado a text-white/40
             break;
         }
 
