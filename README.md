@@ -12,6 +12,6 @@ Demo técnica creada para aprender **Next.js** y **Three.js**. Es un proyecto pr
 ```bash
 npm install
 npm run dev
-
+````
 ---
-``` Desarrollado como prueba técnica por [GEugui](https://github.com/geuguis))
+Desarrollado como prueba técnica por [GEugui](https://github.com/geuguis))
