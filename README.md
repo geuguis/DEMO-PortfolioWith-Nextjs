@@ -14,4 +14,4 @@ npm install
 npm run dev
 ````
 ---
-Desarrollado como prueba técnica por [GEugui](https://github.com/geuguis))
+Desarrollado como prueba técnica por [GEugui](https://github.com/geuguis).
